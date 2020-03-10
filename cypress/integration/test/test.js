@@ -16,6 +16,6 @@ describe('Nav site', () => {
 
     it('Should fail on purpose', () => {
         cy.get('a').contains('Home').click();
-        cy.get('h1').contains('Fail');
+        cy.get('h1').contains('Another Fail');
     })
 })
