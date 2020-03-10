@@ -10,4 +10,4 @@ COPY index.html index.html
 COPY about.html about.html
 COPY contact.html contact.html
 
-RUN npx cypress run --record --key cb22acd3-1231-4b94-8878-ed44fc0fa0ba
+# RUN npx cypress run --record --key cb22acd3-1231-4b94-8878-ed44fc0fa0ba
