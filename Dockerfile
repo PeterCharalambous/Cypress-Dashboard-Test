@@ -1,5 +1,4 @@
-FROM node:7
-WORKDIR /app
-COPY package.json /app
+FROM node:latest
+COPY package.json package.json
 RUN npm install
-COPY . /app
+COPY . .
