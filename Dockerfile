@@ -1,5 +1,4 @@
 FROM node:latest
-WORKDIR /
-COPY package.json /
+COPY package.json package.json
 RUN npm install
-COPY . /
+COPY . .
