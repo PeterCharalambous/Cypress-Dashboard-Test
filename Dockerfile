@@ -1,3 +1,2 @@
-FROM node:latest
-COPY package.json package.json
-COPY . .
+FROM timbru31/java-node:latest
+COPY . /app
