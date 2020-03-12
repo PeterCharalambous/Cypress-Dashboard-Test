@@ -14,8 +14,10 @@ describe('Nav site', () => {
         cy.get('h1').contains('Contact');
     })
 
-    it('Should fail on purpose', () => {
+    // it('Should fail on purpose', () => {
+    it('Should pass', () => {
         cy.get('a').contains('Home').click();
+        // cy.get('h1').contains('Fail');
         cy.get('h1').contains('Homepage');
     })
 })
