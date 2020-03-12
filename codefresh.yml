@@ -33,7 +33,7 @@ steps:
         - "~/.npm"
       stage: "install"
   test:
-    image: "node:latest"
+    image: "cypress/included:4.1.0"
     working_directory: "${{main_clone}}"
     description: "Performing tests..."
     commands:
